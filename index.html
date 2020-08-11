@@ -20,8 +20,8 @@
                     <div class="card-text">
                         <form>
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>Бренд</option>
+                                <select v-model="brands" class="form-control">
+                                    <option disabled value=""> Бренд</option>
                                     <option>Super</option>
                                     <option>Puper</option>
                                     <option>Cool</option>
@@ -29,8 +29,8 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>Размер</option>
+                                <select v-model="sizes" class="form-control">
+                                    <option disabled value="">Размер</option>
                                     <option>29</option>
                                     <option>31</option>
                                     <option>35</option>
@@ -39,8 +39,8 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>Цвет</option>
+                                <select v-model="colors" class="form-control">
+                                    <option disabled value="">Цвет</option>
                                     <option>Синий</option>
                                     <option>Красный</option>
                                     <option>Зеленый</option>
@@ -61,7 +61,7 @@
         Найдено 2 товара
     </div>
     <div class="row no-gutters">
-        <div v-for = "product in products" class="col-6 pr-2">
+        <div v-for = "product in filteredProducts" class="col-6 pr-2">
             <div class="card text-center border-0 shadow-sm mb-3 bg-white rounded-lg">
                 <img class="card-img-top"
                      src="https://media.istockphoto.com/photos/male-coat-isolated-on-the-white-picture-id163208487">
