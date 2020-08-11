@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="874e0e42-1b28-4a0c-8b95-d3ec067b93d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +43,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="874e0e42-1b28-4a0c-8b95-d3ec067b93d7" name="Default Changelist" comment="" />
@@ -51,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597143361051</updated>
-      <workItem from="1597143362935" duration="8542000" />
+      <workItem from="1597143362935" duration="12870000" />
     </task>
     <task id="LOCAL-00001" summary="Отображение товаров">
       <created>1597150214683</created>
@@ -67,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597158649609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Отображено количество товаров, подходящих под фильтрацию.">
+      <created>1597158841257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597158841257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,24 +101,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Отображение товаров" />
     <MESSAGE value="Фильтрация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фильтрация" />
+    <MESSAGE value="Отображено количество товаров, подходящих под фильтрацию." />
+    <option name="LAST_COMMIT_MESSAGE" value="Отображено количество товаров, подходящих под фильтрацию." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="226" key="SettingsEditor" timestamp="1597149923984">
+    <state x="525" y="226" key="SettingsEditor" timestamp="1597178120454">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="525" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1597149923984" />
-    <state x="624" y="327" key="Vcs.Push.Dialog.v2" timestamp="1597158652845">
+    <state x="525" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1597178120454" />
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2" timestamp="1597158842575">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="624" y="327" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1597158652845" />
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1597158842574" />
     <state x="100" y="123" width="1848" height="929" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597150221422">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="100" y="123" width="1848" height="929" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2048.1129@0.23.2048.1129" timestamp="1597150221422" />
-    <state x="689" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1597150004608">
+    <state x="689" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1597178132500">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="689" y="276" width="670" height="676" key="search.everywhere.popup/0.23.2048.1129@0.23.2048.1129" timestamp="1597150004608" />
+    <state x="689" y="276" width="670" height="676" key="search.everywhere.popup/0.23.2048.1129@0.23.2048.1129" timestamp="1597178132500" />
   </component>
 </project>
