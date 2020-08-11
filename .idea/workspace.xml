@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="874e0e42-1b28-4a0c-8b95-d3ec067b93d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597143361051</updated>
-      <workItem from="1597143362935" duration="8307000" />
+      <workItem from="1597143362935" duration="8542000" />
     </task>
     <task id="LOCAL-00001" summary="Отображение товаров">
       <created>1597150214683</created>
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597150214683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Фильтрация">
+      <created>1597158649609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597158649609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,17 +86,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Отображение товаров" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отображение товаров" />
+    <MESSAGE value="Фильтрация" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фильтрация" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="226" key="SettingsEditor" timestamp="1597149923984">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="525" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1597149923984" />
-    <state x="624" y="327" key="Vcs.Push.Dialog.v2" timestamp="1597150217042">
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2" timestamp="1597158652845">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="624" y="327" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1597150217042" />
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1597158652845" />
     <state x="100" y="123" width="1848" height="929" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597150221422">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
