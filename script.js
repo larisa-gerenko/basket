@@ -5,12 +5,12 @@ Vue.component("one-product", {
       visible: false,
     };
   },
-  template: `<div v-on:click = "visible = !visible"  class="card text-center border-0 shadow-sm mb-3 bg-white rounded-lg">
+  template: `<div v-on:click = "showDescription"  class="card text-center border-0 shadow-sm mb-3 bg-white rounded-lg">
                 <img class="card-img-top"
                      src="https://media.istockphoto.com/photos/male-coat-isolated-on-the-white-picture-id163208487">
                 <div class="card-body p-1 m-1">
                     <h5 class="card-title mb-0">{{product.name}}</h5>
-                    <div class="card-text">
+                    <div class="card-text"> 
                         <div>
                             <small class="card-text text-muted">
                                 {{product.category}}
@@ -38,12 +38,20 @@ Vue.component("one-product", {
                             </div>
                         </div>
                     </div>
-                    <a v-on:click = "buying(product)" href="#" class="btn btn-primary m-1">Купить</a>
+                    <a v-on:click = "buying(product, $event)" href="#" class="btn btn-primary m-1">Купить</a>
                 </div>
             </div>`,
   methods: {
-    buying(product) {
+    buying(product, e) {
+      e.preventDefault();
       alert(`куплен товар ${product.name}`);
+    },
+    showDescription(e) {
+      if (e.target.tagName === "A") {
+        return;
+      }
+
+      this.visible = !this.visible;
     },
   },
 });
